@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCraft - Coding Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CodeCraft - Coding Adventure</h1>
+    </header>
+    
+    <main>
+        <section class="game-container">
+            <div class="game-info">
+                <div class="level">
+                    <span>Level:</span>
+                    <span id="level-number">1</span>
+                </div>
+                <div class="score">
+                    <span>Score:</span>
+                    <span id="score">0</span>
+                </div>
+            </div>
+            
+            <div class="challenge">
+                <h2>Challenge</h2>
+                <p id="challenge-text">Write a Python program to print 'Hello, World!'</p>
+            </div>
+            
+            <div class="code-editor">
+                <h2>Code Editor</h2>
+                <textarea id="code-editor" rows="10" cols="50" placeholder="Write your code here..."></textarea>
+                <button id="run-button">Run Code</button>
+            </div>
+        </section>
+        
+        <section class="feedback">
+            <h2>Feedback</h2>
+            <div id="feedback-text">
+                <!-- Feedback messages will appear here -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 CodeCraft</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
